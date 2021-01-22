@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">class_room management</string>
+    <string name="welcomeSignUp">Join the Class Room!</string>
+    <string name="welcomeLogIn">Log In</string>
+    <string name="name">Name</string>
+    <string name="Email">REGD_NO / EMPLOYEE_ID</string>
+    <string name="Phone">Phone No.</string>
+    <string name="Password">Password</string>
+    <string name="SignUpStudent">LOG-IN</string>
+    <string name="send">SEND OTP</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="verify">ENTER NEW PASSWORD</string>
+    <string name="submit">SUBMIT</string>
+    <string name="forgotpassword">forgot password ?</string>
+    <string name="SwitchToLogin">SIGN-UP</string>
+    <string name="LogIn">LogIn</string>
+    <string name="SwitchToSignUp">Join The Class-Room!</string>
+</resources>

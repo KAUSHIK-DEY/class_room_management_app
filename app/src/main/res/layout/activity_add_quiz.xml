@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_quiz"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <EditText
+            android:id="@+id/editTextQuizName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Quiz Name"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/orange"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_marginBottom="20dp"/>
+
+
+        <EditText
+            android:id="@+id/editTextQuizDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date"
+            android:hint="Quiz Date"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/orange"
+            android:textSize="25sp"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/editTextQuizLink"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Quiz Link"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/orange"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <Button
+                android:id="@+id/button_AddNewQuiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/orange"
+                android:text="Add Quiz"
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                android:onClick="upload"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

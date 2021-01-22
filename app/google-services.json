@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "674570138897",
+    "firebase_url": "https://class-room-management-app-default-rtdb.firebaseio.com",
+    "project_id": "class-room-management-app",
+    "storage_bucket": "class-room-management-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674570138897:android:02adbb3d1aa6c0e97ac8b0",
+        "android_client_info": {
+          "package_name": "com.example.class_roommanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674570138897-gvnntn8381hrcfemod1igck9id1lr80a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.class_roommanagement",
+            "certificate_hash": "8e958d9158857796ddab1d36eb3d841d3443d66f"
+          }
+        },
+        {
+          "client_id": "674570138897-sne5j1ur5l12p4u02mnovpeq8hoe514l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8XhRU1nTT2FH0S6GBrFfYCkHCO0H-Ywg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674570138897-sne5j1ur5l12p4u02mnovpeq8hoe514l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
